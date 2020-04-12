@@ -38,6 +38,7 @@ def my_div_gen(*args, **kwargs):
         yield i/kdiv
 if __name__=="__main__":
 # 1:
+    print("1")
     my_div(1000, 10)
     my_div(10000, 10)
     my_div(100000, 10)
